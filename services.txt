@@ -1,41 +1,41 @@
 Data Strategy
--	Data culture
--	Data governance
--	Data reliability 
--	GDPR compliancy
--	Cost optimisation
--	Data consulting
--	Data management
+-	Data Culture
+-	Data Governance
+-	Data Management
+-	Data Reliability & Trust
+-	Data Consulting
+-	GDPR Compliancy
+-	Cost Optimisation
 
 Data Engineering and arch
 
--	Data discovery and acquisition
--	Data integration
--	Data warehousing
--	Data automation
--	Data pipelining and orchestration
--	Data modelling
--	Data architecture
--	Scaling your data
+-	Data Discovery & Acquisition
+-	Data Integration
+-	Data Warehousing
+-	Data Automation
+-	Data Pipelining & Orchestration
+-	Data Modelling
+-	Data Architecture
+-	Scaling your data solution
 
 DSC and ML
 -	Predictive Modelling
--	Deep learning
--	Artificial intelligence
--	Computer vision
+-	Deep Learning
+-	Artificial Intelligence
+-	Computer Vision
 -	Customer CHURN
--	Sales Process optimisation
+-	Sales Process Optimisation
 -	Financial Risk Management 
 -	Operational Intelligence 
--	Natural language processing
--	Customer experience personalization
+-	Natural Language Processing
+-	Customer Experience Personalization
 
 BI
--	Predictive analytics 
+-	Predictive Analytics 
 -	Descriptive Analytics
 -	Diagnostic Analytics
 -	Prescriptive Analytics
 -	Cognitive Analytics
--	Data visualisation
+-	Data Visualisation
 
 
