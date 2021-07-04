@@ -39,3 +39,23 @@ BI
 -	Data Visualisation
 
 
+CATEGORIES: data engineering, data architecture
+ETL - Extract, Transform, Load
+Having a stable and efficient ETL pipeline is no easy task, but with the right tools and technology it can be made that much easier. We can help you define the pipeline and build it too, creating an end to end workflow for all your data needs. Whether you are extracting data from an existing database, pulling data from an API, or simply lading it from a file, an extraction workflow will be tailor made to suit your needs. Transforming the data can provide a powerful way to customise the format to suit your business needs and this is also covered in the end to end ETL process. We can also help you load this data into your existing data warehouse or database wherever it might be.
+
+CATEGORIES: data analytics, visualisation, BI (Business intelligence)
+Data analytics is quickly becoming one of the most demanded requirements for any business. 
+The amount of data available to be used be it your private data, or publicly available information, there is a goldmine waiting for you to dig into in order to drive business decisions and empower change across the board. 
+We use cutting edge technology to build reporting capabilities and dashboards that will allow you and your colleagues to gain valuable insights into data across sales, marketing, HR and any other departments you may have.
+
+CATEGORIES: data engineering, data architecture, gdpr
+Whether you are a brand new startup or fully functional business, implementing and upholding privacy requirements is now something that cannot be avoided. We can help you put data security measures in place that will allow you to protect the most important information you have both about your business, and your customers. GDPR is no longer an optional guideline, it is  a legal requirement, but it isn’t one that should cause you sleepless nights which is why we will make sure all of your data is well protected.
+
+CATEGORIES: data science, machine learning, ai
+Data science and machine learning are both emerging as hot topics across all industries. 
+The applications of machine learning are quite literally endless and there is a growing need to start using them to enhance decision making. 
+Whilst a business can function without it, if you really want to get ahead of the game and use technology at it’s absolute peak, then get in touch and let us work with you to find the best way to make the most of machine learning. 
+Whether you want to predict customer churn, or understand what products and services are performing better than expected, data science has undoubtedly made life easier for a lot of people by allowing models to help with these insights.
+
+CATEGORIES: data engineering, database design, reporting
+Storing data is easy, but storing it in a way that allows your business to utilise it in the most efficient way isn’t quite as simple. We follow best practices and help implement the highest quality of database design to ensure you are able to store the data that matters and more importantly, access it when you need it most. Don’t be inhibited by storage issues and data quality concerns, let your business grow and make decisions with well structured data that allows for insightful reporting and querying.
