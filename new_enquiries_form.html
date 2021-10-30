@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>New Enquirires</title>
+	<link rel="icon" type="image/ico" href="igetdata_favicon.ico"/>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+</head>
+
+<body>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<a href="index.html" class="logo"><strong>I_GET_</strong> <span>DATA</span></a>
+			<nav>
+				<a href="#menu">Menu</a>
+			</nav>
+		</header>
+
+		<!-- Menu -->
+		<nav id="menu">
+			<ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="data_strategy.html">Data Strategy</a></li>
+                <li><a href="deng_arch.html">Data Engineering & Architecture</a></li>
+                <li><a href="dsc_ml.html">Data Science & Machine Learning</a></li>
+                <li><a href="bi.html">Data Analytics & Insights</a></li>
+            </ul>
+            <ul class="actions vertical">
+				<li><a href="about_us.html" class="button special fit">About Us</a></li>
+				<li><a href="new_enquiries_form.html" class="button special fit">New Enquiries</a></li>
+                <li><a href="contact_us.html" class="button special fit">Contact Us</a></li>
+            </ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main" class="alt">
+
+			<!-- One -->
+			<section id="one">
+				<div class="inner">
+					<header class="major">
+						<h1>New Enquiries</h1>
+					</header>
+				</div>
+			</section>
+
+		</div>
+
+		<!-- Enquiries -->
+		<section id="enquiry">
+			<div class="inner">
+				<section>
+					<form method="post" action="mail_handler.php">
+						<div class="field">
+							<label for="name">Full Name</label>
+							<input type="text" name="name" id="name" />
+						</div>
+						<div class="field">
+							<label for="company">Company Name</label>
+							<input type="text" name="company" id="company" />
+						</div>
+						<div class="field">
+							<label for="company_sect">Company Sector</label>
+							<input type="text" name="company_sect" id="company_sect" />
+						</div>
+						<div class="field">
+							<label for="size">Company Size</label>
+							<select name="size" id="size">
+								<option value="" selected disabled hidden>Select Option</option>
+								<option value="start-up">Start-Up</option>
+								<option value="sme">Small to Medium Enterprise</option>
+								<option value="large">Large Enterprise</option>
+								<option value="other">Other</option>
+							  </select>
+						</div>
+						<div class="field">
+							<label for="contact_no">Contact Number</label>
+							<input type="tel" name="contact_no" id="contact_no" placeholder="e.g 0123 4567 890" />
+						</div>
+						<div class="field">
+							<label for="email">Email</label>
+							<input type="text" name="email" id="email"/>
+						</div>
+						<div class="field">
+							<label for="company_goals"> Company Goals: </label>
+							<select name="company_goals" id="company_goals">
+								<option value="" selected disabled hidden>Select Option</option>
+								<option value="data_ori"> To become data oriented</option>
+								<option value="optimise">To optimise internal processes</option>
+								<option value="understand">To understand our customers and clients</option>
+								<option value="learn">To learn more about how I GET DATA can help us</option>
+							  </select>
+						</div>
+						<div class="field">
+							<label for="services"> Service you are enquiring about:  </label>
+							<form action="/action_page.php">
+								<input type="checkbox" id="option1" name="option1" value="data_strat">
+								<label for="option1"> Data Strategy</label><br>
+								<input type="checkbox" id="option2" name="option2" value="engin_archi">
+								<label for="option2"> Data Engineering and Architecture</label><br>
+								<input type="checkbox" id="option3" name="option3" value="sci_learn">
+								<label for="option3"> Data Science and Machine Learning</label><br>
+								<input type="checkbox" id="option4" name="option4" value="analytics">
+								<label for="option4"> Data Analytics and Insight</label><br>
+								<input type="checkbox" id="option5" name="option5" value="dat_provision">
+								<label for="option5"> Data Provision</label><br>
+								<input type="checkbox" id="option6" name="option6" value="other">
+								<label for="option6">  Other Services</label><br>
+							  </form>
+						</div>
+						<div class="field">
+							<label for="message">Briefly explain what your company does:</label>
+							<textarea name="message" id="message" rows="3"></textarea>
+						</div>
+						&nbsp;
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" class="special" /></li>
+							<li><input type="reset" value="Clear" /></li>
+						</ul>
+					</form>
+				</section>
+				<section class="split">
+					<section>
+						<div class="contact-method">
+							<span class="icon alt fa-envelope"></span>
+							<h3>Email</h3>
+							<a href="#">info@igetdata.co.uk</a>
+						</div>
+					</section>
+					<section>
+						<div class="contact-method">
+							<span class="icon alt fa-home"></span>
+							<h3>Address</h3>
+							<span>Kemp House <br />
+								152 - 160 City Road<br />
+								London<br />
+								EC1V 2NX <br />
+								United Kingdom</span>
+						</div>
+					</section>
+				</section>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<ul class="icons">
+					<!-- <li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li> -->
+					<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+				</ul>
+			</div>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
